@@ -1,0 +1,37 @@
+.terms {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1fdf7; /* Background color from your home page palette */
+  color: #333;
+
+  .landscape-image {
+    img {
+      width: 100%;
+      max-height: 800px;
+      object-fit: cover;
+    }
+  }
+
+  .terms-content {
+    max-width: 100%;
+    padding: 2rem;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 1rem;
+      color: #0076b6; /* Blue from your home page palette */
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #0076b6; /* Blue from your home page palette */
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      margin-bottom: 2rem; /* Add spacing between paragraphs */
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.Help {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1fdf7; // Background color from your home page palette
+  color: #333;
+
+  .landscape-image {
+    img {
+      width: 100%; // Set the image to fill the width of the container
+      max-height: 700px; // Set the maximum height (adjust as needed)
+      object-fit: cover; // Maintain aspect ratio and cover the container
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0076b6; // Blue from your home page palette
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0076b6; // Blue from your home page palette
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .section {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+.pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #f1fdf7;
+  
+    .pay-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .payment-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-group {
+        margin-bottom: 20px; /* Increase the spacing between form groups */
+        text-align: center;
+  
+        .form-label {
+          font-size: 16px;
+          margin-bottom: 10px; /* Increase the spacing below form labels */
+        }
+  
+        .form-input {
+          width: 100%;
+          padding: 10px;
+          font-size: 14px;
+          margin-bottom: 10px; /* Increase the spacing below form inputs */
+        }
+      }
+  
+      .submit-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+    }
+  }
+   
